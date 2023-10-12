@@ -6,6 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class AdminController {
+    private static final String ADMIN = "admin";
 
     @GetMapping("/admin")
     public ModelAndView admin(){
