@@ -1,0 +1,12 @@
+spring:
+  thymeleaf: # Thymeleaf properties
+    cache: false # Disable Thymeleaf template cache
+    mode: HTML # Set the template mode to HTML
+    encoding: UTF-8 # Set the template encoding to UTF-8
+    prefix: file:src/main/resources/templates/ # Set the prefix to find the templates
+
+  web:
+    resources:
+      static-locations: file:src/main/resources/static/
+      cache:
+        period: 0 # Disable static resources cache
